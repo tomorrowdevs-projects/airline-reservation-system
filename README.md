@@ -1,34 +1,20 @@
- Create an onboarding process using the attached mockup file.
+Create a reservation system which books airline seats. 
 ===============================
 
-![preview](https://github.com/tomorrowdevs-projects/user-onboarding/blob/main/preview.png "preview")
+It charges various rates for particular sections of the plane. 
 
-## Download here the [Figma Mockup](https://github.com/tomorrowdevs-projects/user-onboarding/blob/main/User_onboarding.fig)
+Example, first class is going to cost more than coach.
 
 Requirements:
 ----------------
-- Respect exactly the provided layout
-- Deploy the project towards Netlify (www.netlify.com) connected to your GitHub Repo
-- The form should be validated and should prompt success or error messages
-- Error messages should be provided on each field
-
-Level 1:
-----------------
-- Start the project using ReactJs
-- Implement all the components and layouts
-- Provide a validation for each field
-- Use state to store temporary values and show the steps
-- Write tests for each single validation
-
-Level 2:
-----------------
-- Use react-router to navigate between the steps
-- Find a strategy to save temporary values (eg. Context, Redux, LocalStorage)
-
-Level 3:
-----------------
-- Save results with Strapi (https://strapi.io)
-- Show a loader while calling the api and provide a feedback for success or error messages
+- Choose fly departure / destination , depending on number of passengers and age (only if there are children within the booking)
+- Show a list of fly combinations
+- Once a combination has been selected, allow the user to input of each passenger
+- Select type of class for each passenger
+- Select if any of the passenger has additional luggage
+- Show each selection as a new page
+- Show the updated total on the side of the screen (updating after each change)
+- Connect a Sandbox of a know payment system (Stripe or Paypal)
 
 Before starting any of the tasks in this Learning Path, please READ the following rules
 ===============================
